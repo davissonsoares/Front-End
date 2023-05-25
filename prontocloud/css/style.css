@@ -27,6 +27,7 @@ body {
     padding: 20px;
     width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
 }
 
 header {    
@@ -68,8 +69,22 @@ h4 {
 p {
     margin-bottom: 10px;
     line-height: 1.4;
+    color: #333;
 
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+#tenho-interesse {
+    background-color: #9ac2e6;
+    width: 100%;
+}
+
+
 
 ol {
     margin-left: 30px;
@@ -149,6 +164,8 @@ footer small {
     display: block;
 }
 
-.cog-branding__powered {
-    visibility: hidden !important;
+.cognito {
+    height: 370px;
+    overflow: hidden;
 }
+
